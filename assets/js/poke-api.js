@@ -13,6 +13,8 @@
 
         pokemon.photo=pokemonDetail.sprites.other.dream_world.front_default
 
+        
+
         return pokemon
     }
 

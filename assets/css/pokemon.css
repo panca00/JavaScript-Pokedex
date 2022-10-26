@@ -94,11 +94,15 @@
     justify-content: space-between;
 }
 
-.pokemon .name{
+.pokemon .name a{
+    text-decoration: none;
     color: #fff;
+}
+.pokemon .name{
     margin-bottom: .25rem;
     font-size: .825rem;
     text-transform: capitalize;
+    
 }
 
 .pokemon .detail .types{
@@ -147,6 +151,7 @@
     padding: 1rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width:339px){
